@@ -88,7 +88,7 @@ app.post('/pdf', async (req, res) => {
                 }
 
             } catch (err) {
-                console.error('Ошибка генерации:', raw, err);
+                console.error('Code generation error:', raw, err);
             }
         }
 
